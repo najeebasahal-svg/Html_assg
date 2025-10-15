@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="check.png" />
     <Content Include="customize_3584417.png" />
+    <Content Include="gitUpdate.aspx" />
     <Content Include="Page1.html" />
     <Content Include="Page2.html" />
     <Content Include="StyleSheet1.css" />
@@ -77,6 +78,13 @@
     <Content Include="WebForm1.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="gitUpdate.aspx.cs">
+      <DependentUpon>gitUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="gitUpdate.aspx.designer.cs">
+      <DependentUpon>gitUpdate.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WebForm1.aspx.cs">
       <DependentUpon>WebForm1.aspx</DependentUpon>
